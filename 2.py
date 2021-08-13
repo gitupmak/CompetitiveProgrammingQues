@@ -16,6 +16,7 @@ def kth_element(arr, M, K):
     The array is modified to {1^4, 4^5, 5^6, 6^7} = {5, 1, 3, 1}. 
     The value of the element at index K = 2 in the updated array is 3.
     """
+    # Initializing array for storing resultant array
     temp=[]
     if M < 0 or M >= len(arr):
         return -1
